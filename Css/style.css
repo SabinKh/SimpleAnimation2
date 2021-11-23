@@ -1,0 +1,38 @@
+
+
+.test1{
+/* position: relative; */
+width: 1200px;
+height: 20px;
+border: 5px solid rgb(102, 63, 107);
+padding: 15px;
+margin: 100px;
+background-color: rgb(152, 110, 158);
+transform: rotate(10deg);
+}
+.test2{
+    background-color:#242520;
+ width: 30px;
+ height: 30px;
+ 
+ top: 5px;
+ position: relative;
+ 
+ animation:anmsn 10s;
+ animation-iteration-count: 10;
+
+}
+@keyframes anmsn{
+    50%
+   {
+    transform:  rotate(360deg);
+    margin-left: 87%;
+   }
+   100%
+   {
+    transform:  rotate(360deg);
+ 
+    float: right;
+    
+   }
+}
